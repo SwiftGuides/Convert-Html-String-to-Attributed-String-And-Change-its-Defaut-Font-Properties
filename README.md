@@ -10,13 +10,6 @@ Extension Link :- https://gist.github.com/valvoline/b9a939e29910665c0396f7082d2a
 ```swift
 
 //MARK: Extension to Change HTML String to Attributed String
-//
-//  String+HTML.swift
-//  AttributedString
-//
-//  Created by Costantino Pistagna on 08/11/2017.
-//  Copyright © 2017 sofapps.it All rights reserved.
-//
 
 import UIKit
 import Foundation
@@ -123,8 +116,8 @@ extension String {
 ### Call The Extension
 
 ```swift
-        let htmlString = "<strong>Hello</strong> World!"
-        textViewTest.attributedText = htmlString?.htmlAttributed(family: "Roboto", size: 14.0, color: .orange)  //Assign Attributed String to TextView
+   let htmlString = "<strong>Hello</strong> World!"
+   textViewTest.attributedText = htmlString?.htmlAttributed(family: "Roboto", size: 14.0, color: .orange)  //Assign Attributed String to TextView
 ```
 
 
