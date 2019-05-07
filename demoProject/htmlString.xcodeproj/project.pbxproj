@@ -13,6 +13,8 @@
 		9AA3BD972265D8DE00AF788F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AA3BD962265D8DE00AF788F /* Assets.xcassets */; };
 		9AA3BD9A2265D8DE00AF788F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AA3BD982265D8DE00AF788F /* LaunchScreen.storyboard */; };
 		9AA3BDA22265DB3E00AF788F /* demo.html in Resources */ = {isa = PBXBuildFile; fileRef = 9AA3BDA12265DB3E00AF788F /* demo.html */; };
+		9AFCDC122281B080005462CC /* HTMLString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFCDC112281B080005462CC /* HTMLString+Extension.swift */; };
+		9AFCDC142281B199005462CC /* roboto-font in Resources */ = {isa = PBXBuildFile; fileRef = 9AFCDC132281B199005462CC /* roboto-font */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		9AA3BD992265D8DE00AF788F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9AA3BD9B2265D8DE00AF788F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AA3BDA12265DB3E00AF788F /* demo.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = demo.html; sourceTree = "<group>"; };
+		9AFCDC112281B080005462CC /* HTMLString+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HTMLString+Extension.swift"; sourceTree = "<group>"; };
+		9AFCDC132281B199005462CC /* roboto-font */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "roboto-font"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				9AA3BD982265D8DE00AF788F /* LaunchScreen.storyboard */,
 				9AA3BD9B2265D8DE00AF788F /* Info.plist */,
 				9AA3BDA12265DB3E00AF788F /* demo.html */,
+				9AFCDC112281B080005462CC /* HTMLString+Extension.swift */,
+				9AFCDC132281B199005462CC /* roboto-font */,
 			);
 			path = htmlString;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AFCDC142281B199005462CC /* roboto-font in Resources */,
 				9AA3BD9A2265D8DE00AF788F /* LaunchScreen.storyboard in Resources */,
 				9AA3BDA22265DB3E00AF788F /* demo.html in Resources */,
 				9AA3BD972265D8DE00AF788F /* Assets.xcassets in Resources */,
@@ -139,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AFCDC122281B080005462CC /* HTMLString+Extension.swift in Sources */,
 				9AA3BD922265D8D200AF788F /* ViewController.swift in Sources */,
 				9AA3BD902265D8D200AF788F /* AppDelegate.swift in Sources */,
 			);
@@ -286,14 +294,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = Y448S299L5;
 				INFOPLIST_FILE = htmlString/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.app.htmlString;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.viidoo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = viidooDevelopmentProfile;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -303,14 +313,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = Y448S299L5;
 				INFOPLIST_FILE = htmlString/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.app.htmlString;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.viidoo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = viidooDevelopmentProfile;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
